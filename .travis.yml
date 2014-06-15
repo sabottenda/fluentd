@@ -1,15 +1,12 @@
 language: ruby
 
 rvm:
-  - 1.9.3
-  - 2.0.0
   - 2.1
   - ruby-head
   - rbx
 
 os:
   - linux
-  - osx
 
 gemfile:
   - Gemfile
@@ -20,4 +17,4 @@ script: bundle exec rake
 matrix:
   allow_failures:
     - rvm: ruby-head
-    - rvm: rbx
+    - rvm: rbx-2
