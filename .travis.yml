@@ -3,7 +3,7 @@ language: ruby
 rvm:
   - 2.1
   - ruby-head
-  - rbx
+  - rbx-2
 
 os:
   - linux
